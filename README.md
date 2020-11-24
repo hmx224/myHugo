@@ -17,8 +17,11 @@ hugo server --theme=maupassant-hugo --buildDrafts
 
 ```
 
-## 浏览器访问
+## 在线浏览器访问
 [在线博客](https://www.ifanatic.cn)
+
+## 本地访问 
+http://localhost:1313/
 
 ## 部署
 
