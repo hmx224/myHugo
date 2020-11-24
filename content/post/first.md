@@ -31,6 +31,7 @@ toc: true
 - php中安装swoole扩展[点击这里](https://wiki.swoole.com/wiki/page/6.html) "说明：1. 停止命令 pkill php-fpm 2.重启或启动命令 php-fpm -R 3.php --ri swoole 查看swoole安装情况"
 - easySwoole文档[点击这里](https://www.easyswoole.com/Introduction/environment.html)
 - php包仓库[点击这里](https://packagist.org/)
+- php面试题来源php.cn[点击这里](https://www.php.cn/toutiao-415599.html)
 
 ## Python语言
 
