@@ -7,6 +7,8 @@ hugo搭建blog
 
 cd themes
 git clone https://github.com/flysnow-org/maupassant-hugo
+git clone https://github.com/pagecho/maupassant.git
+git clone https://github.com/spf13/hyde.git
 
 ```
 ## 运行Hugo
