@@ -1,7 +1,8 @@
 ---
 title: "Linux的启动流程"
 date: 2020-11-28T16:48:51+08:00
-draft: true
+draft: false
+toc: true
 ---
 
 Linux 的启动流程
