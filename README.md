@@ -1,7 +1,15 @@
 # myHugo
 hugo搭建blog
+参考文档：https://www.gohugo.org/
 
+## 生成站点
+```cgo
+
+hugo new site /path/to/site
+
+```
 ## 安装皮肤
+
 
 ```cgo
 
@@ -9,6 +17,14 @@ cd themes
 git clone https://github.com/flysnow-org/maupassant-hugo
 git clone https://github.com/pagecho/maupassant.git
 git clone https://github.com/spf13/hyde.git
+
+```
+## 创建文档
+
+```cgo
+
+hugo new post/xxx.md
+
 
 ```
 ## 运行Hugo
