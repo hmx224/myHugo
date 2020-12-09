@@ -81,9 +81,14 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
     url = "/archives/"
     weight = 5
   [[menu.main]]
+      identifier = "interviews"
+      name = "面试"
+      url = "/interviews/"
+      weight =6
+  [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
-    weight = 6
+    weight = 7
 
 
