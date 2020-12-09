@@ -24,7 +24,7 @@ toc: true
 ## 2.require,include 区别
 > require是无条件包含也就是如果一个流程里加入require,无论条件成立与否都会先执行require include有返回值，而require没有(可能因为如此require的速度比include快) 包含文件不存在或者语法错误的时候require是致命的错误终止执行,include不是
 
-## > 3.PHP 的垃圾回收机制
+##  3.PHP 的垃圾回收机制
 > PHP 可以自动进行内存管理，清除不需要的对象。
 > PHP 使用了引用计数 (reference counting) GC 机制。
 > 每个对象都内含一个引用计数器 refcount，每个 reference 连接到对象，计数器加 1。当 reference 离开生存空间或被设为 NULL，计数器减 1。当某个对象的引用计数器为零时，PHP 知道你将不再需要使用这个对象，释放其所占的内存空间。
@@ -187,11 +187,11 @@ print_r(mk(6,8));   //第3只为大王
 ```
 
 
-## 一.什么是 CGI？什么是 FastCGI？php-fpm，FastCGI，Nginx 之间是什么关系？
+## 5.什么是 CGI？什么是 FastCGI？php-fpm，FastCGI，Nginx 之间是什么关系？
 > CGI，通用网关接口，用于WEB服务器和应用程序间的交互，定义输入输出规范，用户的请求通过WEB服务器转发给FastCGI进程，FastCGI进程再调用应用程序进行处理，如php解析器，应用程序的处理结果如html返回给FastCGI，FastCGI返回给Nginx 进行输出。假设这里WEB服务器是Nginx，应用程序是 PHP，而 php-fpm 是管理 FastCGI 的，这也就是 php-fpm，FastCGI，和 Nginx 之间的关系。
 > FastCGI 用来提高 cgi 程序性能，启动一个master，再启动多个 worker，不需要每次解析 php.ini. 而 php-fpm 实现了 FastCGI 协议，是 FastCGI 的进程管理器，支持平滑重启，可以启动的时候预先生成多个进程。
 
-## 二.memcache 和 Redis 的区别
+## 6.memcache 和 Redis 的区别
 
 数据结构：memcache仅支持简单的key-value形式，Redis支持的数据更多（string字符串，set集合，list列表，hash散列，zset有序集合）；
 
@@ -214,7 +214,7 @@ print_r(mk(6,8));   //第3只为大王
 > Redis 还可以同时使用 AOF 持久化和 RDB 持久化。 在这种情况下， 当 Redis 重启时， 它会优先使用 AOF 文件来还原数据集， 因为 AOF 文件保存的数据集通常比 RDB 文件所保存的数据集更完整。
 你甚至可以关闭持久化功能，让数据只在服务器运行时存在。
 
-## 三.什么是 Redis 穿透和雪崩
+## 7.什么是 Redis 穿透和雪崩
 
 - 缓存穿透
 
@@ -234,7 +234,7 @@ print_r(mk(6,8));   //第3只为大王
 - 事中：使用ehcache+hystrix限流组件(当请求量非常巨大的时候,就调用自己开发好的一个降级饿组件,返回一些默认值,如友情提示,或者空白值)
 - 事后：做持久化,尽快恢复缓存集群,一旦恢复,自动从磁盘上读取数据,恢复内存中的数据。
 
-## 四.redis 消息队列先进先出需要注意什么？
+## 8.redis 消息队列先进先出需要注意什么？
 
 通常使用一个list来实现队列操作，这样有一个小限制，所以的任务统一都是先进先出，如果想优先处理某个任务就不太好处理了，这就需要让队列有优先级的概念，我们就可以优先处理高级别的任务，实现方式有以下几种方式：
 
@@ -250,7 +250,7 @@ list2 做为普通任务队列
 方式2是推荐用法，实际应用最为合适
 ```
 
-## 五.Redis 如何防止高并发？
+## 9.Redis 如何防止高并发？
 
 其实redis是不会存在并发问题的，因为他是单进程的，再多的命令都是一个接一个地执行的。我们使用的时候，之所以可能会出现并发问题，比如获得和设定这一对。
 
@@ -269,7 +269,7 @@ Redis是一种单线程机制的nosql数据库，基于key-value，数据可持�
 服务器角度，利用setnx变向实现锁机制。
 
 
-## 数据库层面
+## 10.数据库层面
 
 ### 说说对 SQL 语句优化有哪些方法？
 
