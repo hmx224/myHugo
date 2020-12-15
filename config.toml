@@ -60,11 +60,7 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 ## 配置网站菜单
 
 [menu]
-  [[menu.main]]
-    identifier = "tools"
-    name = "工具"
-    url = "/tools/"
-    weight = 2
+
   [[menu.main]]
     name       = "分类"
     identifier = "categories"
