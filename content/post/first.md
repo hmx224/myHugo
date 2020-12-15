@@ -17,6 +17,17 @@ toc: true
 - goland 2019.01/2018.03(这个版本可以用),百度云下载使用
 - php校验身份证号,[点击这里](https://www.cnblogs.com/itbsl/p/11282677.html)
 - html代码压缩,[点击这里](https://www.sojson.com/jshtml.html)
+- 图片压缩工具Compressor.io，[点击这里](https://compressor.io/)
+- [正则表达式匹配工具](https://regex101.com/)
+- [图片压缩支持jpg，png,单压缩效果很棒](https://tinypng.com/)
+- [VisuAlgo（多语言支持），算法可视化图](https://visualgo.net/zh)
+- [Desmos Graphing Calculator,在线作图工具，数学函数](https://www.desmos.com/calculator?lang=zh-CN)
+- [在线计算器，可以识别手写的复杂表达式，而且画出函数图像，支持导出为Latex、MathML、SymbolTree等格式。](https://webdemo.myscript.com/views/math/index.html)
+- [将 Latex 表达式转换为漂亮的、透明的 PNG 图片，很实用的网站。](http://latex2png.com/)
+- [格式转换网站](https://cloudconvert.com/)
+
+
+
 
 ## Go语言
 
