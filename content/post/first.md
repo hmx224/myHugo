@@ -1,7 +1,15 @@
 ---
 title: "记录早期爱狂热blog简介记录"
+description: "blog 爱狂热 php学习 golang python "
+lastmod: 2020-12-15
 date: "2020-11-22T09:15:46+08:00"
 toc: true
+tags: ["php"]
+categories: 
+  - "tools"
+project_url: "https://github.com/hmx224"
+slug: "ifanatic blog introduce"
+
 ---
 
 
