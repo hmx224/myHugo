@@ -60,7 +60,11 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 ## 配置网站菜单
 
 [menu]
-
+   [[menu.main]]
+      identifier = "go"
+      name = "Golang"
+      url = "/go/"
+      weight =2
   [[menu.main]]
     name       = "分类"
     identifier = "categories"
