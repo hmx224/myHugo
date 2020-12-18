@@ -2,7 +2,7 @@
 title: "github中资料汇集"
 description: "Go语言是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言，Go 语言是一种现代化的语言，优秀的并发理念， 不要通过共享内存来通信，而通过通信来共享内存。"
 date: 2020-12-18T14:14:21+08:00
-draft: true
+draft: false
 lastmod: 2020-12-18
 toc: true
 tags: ["go"]
