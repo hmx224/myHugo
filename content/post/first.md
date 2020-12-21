@@ -52,6 +52,8 @@ slug: "ifanatic blog introduce"
 - php包仓库[点击这里](https://packagist.org/)
 - php面试题来源php.cn[点击这里](https://www.php.cn/toutiao-415599.html)
 - [laravel8中文文档](https://learnku.com/docs/laravel/8.x)
+- [PHPUnit手册](https://phpunit.readthedocs.io/zh_CN/latest/)
+
 
 ## Python语言
 
