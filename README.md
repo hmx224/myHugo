@@ -58,6 +58,9 @@ hugo --theme=maupassant-hugo --baseUrl="http://hmx224.github.io/"
 
 ```
 
+## 将部署生成的public下的文件，拷贝到hmx224.github.io中；
+
+
 ## 配置webhook
 
 webhook是GitHub上提供的Git的一种Hook机制，当代码发生变化时，比如代码被Push到GitHub的Repo时，GitHub会自动请求一个你指定的网页，
