@@ -3,11 +3,14 @@ hugo搭建blog
 通过本系统先进行构建操作，然后进行
 
 
-参考文档：https://www.gohugo.org/
-https://www.kancloud.cn/yunduanio/gohugo_learning/1439163
+参考文档：
+- https://www.gohugo.org/
+- https://www.kancloud.cn/yunduanio/gohugo_learning/1439163
+- https://github.com/gohugoio/hugo
 
 ## 安装hugo
-下载 hugo编译好的文件https://github.com/gohugoio/hugo/releases/download/v0.58.3/hugo_extended_0.58.3_Windows-64bit.zip
+下载 hugo编译好的文件
+- https://github.com/gohugoio/hugo/releases/download/v0.58.3/hugo_extended_0.58.3_Windows-64bit.zip
 
 ## 生成站点
 ```cgo

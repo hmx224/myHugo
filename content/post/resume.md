@@ -16,7 +16,7 @@ toc: true
  - 手机：15321604680(同微信)
  - Email：ifanaticfire@gmail.com 
  - 期望职位：PHP/Go开发
- - 期望薪资：税前月薪25k~30k
+ - 期望薪资：面议
 
 ---
 
