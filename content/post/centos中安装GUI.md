@@ -3,6 +3,8 @@ title: "Centos中安装GUI"
 date: 2020-11-29T21:51:13+08:00
 draft: false
 toc: true
+tags: ["Linux"]
+categories: ["Linux"]
 ---
 
 [toc]

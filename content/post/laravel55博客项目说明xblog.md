@@ -1,9 +1,11 @@
 ---
+
 title: "Laravel55博客项目说明xblog"
-date: 2020-12-06T15:25:27+08:00
+date: 2020-12-07T15:25:27+08:00
 draft: false
 toc: true
-
+tags: ["Laravel"]
+categories: ["Laravel"]
 ---
 
 [toc]
@@ -13,10 +15,13 @@ toc: true
 > https://xblog.lufficc.com/blog/how-to-install-my-blog
 
 ## 环境要求
+
 安装npm install过程会存在问题，以下的版本可以运行成功
 npm版本 6.14.4
 node版本 v10.21.0
 composer 2.0.7
+
+
 
 ```
 {

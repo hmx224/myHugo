@@ -3,6 +3,8 @@ title: "Linux的启动流程"
 date: 2020-11-28T16:48:51+08:00
 draft: false
 toc: true
+tags: ["Linux"]
+categories: ["Linux"]
 ---
 
 Linux 的启动流程

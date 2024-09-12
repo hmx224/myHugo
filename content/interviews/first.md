@@ -3,7 +3,7 @@ title: "php面试题汇总"
 date: 2020-12-09T21:59:26+08:00
 draft: false
 toc: true
-
+weight: 100
 ---
 # php层面
 请用最简单的语言告诉我PHP是什么？

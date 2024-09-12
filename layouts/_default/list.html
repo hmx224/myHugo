@@ -1,0 +1,9 @@
+{{ $pages := .Pages }}
+{{ $sortedPages := $pages.ByWeight }}
+{{ range $sortedPages }}
+<article>
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Date.Format "2006-01-02" }}</p>
+    <p>{{ .Content }}</p>
+</article>
+{{ end }}

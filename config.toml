@@ -11,7 +11,7 @@ preserveTaxonomyNames = true
 disablePathToLower = true
 
 hasCJKLanguage = true
-summaryLength = 140
+summaryLength = 120
 
 disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
 
@@ -29,6 +29,8 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 
   # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
   toc = true  # 是否开启目录
+  # 图片放大
+  fancybox = true
 
 ## 友情链接，可以多个
 
@@ -57,38 +59,44 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
     lineNos = true
     style = "github"
 
+## 归档页面
+[outputs]
+home = ["HTML"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+# 自定义类型的配置
+[permalinks]
+php = "/php/:title/"
+
+
 ## 配置网站菜单
 
 [menu]
-   [[menu.main]]
-      identifier = "go"
-      name = "Golang"
-      url = "/go/"
-      weight =2
   [[menu.main]]
     name       = "分类"
     identifier = "categories"
     url        = "/categories/"
-    weight = 3
-  [[menu.main]]
-    identifier = "php"
-    name = "php知识"
-    url = "/php/"
-    weight = 4
+    weight = 1
+
   [[menu.main]]
     identifier = "archives"
     name = "归档"
     url = "/archives/"
-    weight = 5
+    weight = 2
+
   [[menu.main]]
       identifier = "interviews"
       name = "面试"
       url = "/interviews/"
-      weight =6
+      weight =3
+
   [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
-    weight = 7
+    weight = 4
 
 

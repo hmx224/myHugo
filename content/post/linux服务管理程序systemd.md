@@ -3,6 +3,8 @@ title: "Linux服务管理程序systemd"
 date: 2020-11-28T16:33:53+08:00
 draft: false
 toc: true
+tags: ["Linux"]
+categories: ["Linux"]
 ---
 
 # linux服务管理程序systemd

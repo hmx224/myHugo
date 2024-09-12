@@ -2,6 +2,22 @@
 hugo搭建blog
 通过本系统先进行构建操作，然后进行
 
+#### 20240911
+weight 数值越来越靠前
+backend_interview 中是markdown文件迁移到了interviews中
+
+### 20240912
+运行 hugo server 时，确保没有使用旧的缓存。确保 Hugo 重新生成所有页面。
+hugo server --disableFastRender
+
+调试日志
+hugo --debug
+
+禁用 Hugo 缓存
+hugo --ignoreCache
+
+post对应的归档，只是增加了日期过滤，本质上还是一个文件夹，包含一些文件
+
 
 参考文档：
 - https://www.gohugo.org/
@@ -37,6 +53,7 @@ git clone https://github.com/spf13/hyde.git
 
 hugo new post/xxx.md
 
+hugo new backend_interview/index.md
 
 ```
 ## 运行Hugo

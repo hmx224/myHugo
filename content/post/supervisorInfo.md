@@ -3,7 +3,8 @@ title: "SupervisorInfo"
 date: 2020-11-25T17:56:39+08:00
 draft: false
 toc: true
-
+tags: ["Linux"]
+categories: ["Linux"]
 ---
 
 ## 一、supervisor简介
